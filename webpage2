@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FlyEasy | Flash Sale</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+    <div class="container nav-container">
+        <h1 class="logo">FlyEasy</h1>
+
+        <!-- Hamburger Checkbox -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+    <div class="container hero-content">
+        <h2>50% Off Asia Flights This Week</h2>
+        <p>Limited time flash sale. Book before seats run out!</p>
+        <a href="#" class="btn">Book Now</a>
+
+        <div class="badge">Flash Sale</div>
+    </div>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section class="features container">
+    <h2 class="section-title">Why Fly With Us?</h2>
+    <div class="feature-grid">
+        <article class="feature-card">
+            <h3>✈ Non-Stop Routes</h3>
+            <p>Direct connections to major Asian cities with zero layovers.</p>
+        </article>
+
+        <article class="feature-card">
+            <h3>🍽 Free Meals & Baggage</h3>
+            <p>Complimentary meals and 20kg baggage allowance included.</p>
+        </article>
+
+        <article class="feature-card">
+            <h3>🔄 Flexible Changes</h3>
+            <p>Modify bookings easily with minimal change fees.</p>
+        </article>
+    </div>
+</section>
+
+<!-- ================= PRICING ================= -->
+<section class="pricing">
+    <div class="container">
+        <h2 class="section-title">Choose Your Fare</h2>
+        <div class="pricing-grid">
+
+            <article class="price-card">
+                <h3>Economy</h3>
+                <p class="price">$199</p>
+                <ul>
+                    <li>Standard Seat</li>
+                    <li>1 Cabin Bag</li>
+                    <li>Basic Support</li>
+                </ul>
+                <a href="#" class="btn-outline">Select</a>
+            </article>
+
+            <article class="price-card premium">
+                <div class="recommended">Recommended</div>
+                <h3>Premium Comfort</h3>
+                <p class="price">$399</p>
+                <ul>
+                    <li>Extra Legroom</li>
+                    <li>2 Checked Bags</li>
+                    <li>Priority Boarding</li>
+                    <li>Free Meal</li>
+                </ul>
+                <a href="#" class="btn">Select</a>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="container footer-grid">
+
+        <div>
+            <h4>Contact Us</h4>
+            <p>FlyEasy Airlines</p>
+            <p>Hyderabad International Airport</p>
+            <p>Phone: +91 9876543210</p>
+            <p>Email: support@flyeasy.com</p>
+        </div>
+
+        <div>
+            <h4>Follow Us</h4>
+            <p>Twitter | Facebook | Instagram</p>
+        </div>
+
+        <div>
+            <h4>Certifications</h4>
+            <p>IATA Certified</p>
+            <p>ISO Safety Approved</p>
+        </div>
+
+    </div>
+
+    <p class="copyright">© 2026 FlyEasy Airlines. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
